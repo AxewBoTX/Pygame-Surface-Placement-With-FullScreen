@@ -15,6 +15,7 @@ class Game():
 		self.running = True
 		self.last_time = time.time()
 		self.main_clock = pygame.time.Clock()
+		#The Text Variables
 		self.font = pygame.font.Font("font.ttf",50)
 		self.centre_font = self.font.render("CENTER",False,'white')
 		self.bottom_right_font = self.font.render("Bottom Right",False,'white')
